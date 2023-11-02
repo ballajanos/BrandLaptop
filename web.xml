@@ -1,0 +1,14 @@
+<web-app>
+	
+	<servlet>
+		<servlet-name>brand-servlet</servlet-name>
+		<servlet-class>laptop.Servlet</servlet-class>
+	</servlet>
+	
+	
+	<servlet-mapping>
+		<url-pattern>/laptops?brand=DELL</url-pattern>
+		<servlet-name>brand-servlet</servlet-name>
+	</servlet-mapping>
+
+</web-app>
